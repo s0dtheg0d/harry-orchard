@@ -1,7 +1,6 @@
 "use client"
 import { useState } from 'react';
 import Link from 'next/link';
-import { path } from '../utils/path';
 import '/styles/globals.css';
 
 export default function RootLayout({
@@ -36,6 +35,19 @@ export default function RootLayout({
                                 <li><Link href="/calendar">SEASON CALENDAR</Link></li>
                                 <li><Link href="/purchase">PRE-PURCHASE</Link></li>
                                 <li><Link href="/contact">CONTACT</Link></li>
+                                <li>
+                                  <Link href="/shoppingCart" className="shopping-cart" aria-label="Shopping Cart">
+                                    <svg 
+                                      xmlns="http://www.w3.org/2000/svg" 
+                                      viewBox="0 0 576 512" 
+                                      width="24" 
+                                      height="24" 
+                                      fill="currentColor">
+                                        <path d="M528.12 301.319L576 118H131.27l-9.67-33.641A24 24 0 0 0 100.69 48H24A24 24 0 0 0 0 72v16a24 24 0 0 0 24 24h63.637l70.795 246.213A63.987 63.987 0 1 0 168 400h288a64 64 0 1 0 16-98.681zM201.838 400a32 32 0 1 1 32 32 32 32 0 0 1-32-32zm240 0a32 32 0 1 1 32 32 32 32 0 0 1-32-32z"/>
+                                    </svg>
+                                    <span className="cart-label">Cart</span>
+                                  </Link>
+                                </li>
                               </ul>
                             </div>
                           </div>
@@ -45,6 +57,19 @@ export default function RootLayout({
                         <li><Link href="/calendar">SEASON CALENDAR</Link></li>
                         <li><Link href="/purchase">PRE-PURCHASE</Link></li>
                         <li><Link href="/contact">CONTACT</Link></li>
+                        <li>
+                          <Link href="/shoppingCart" className="shopping-cart" aria-label="Shopping Cart">
+                            <svg 
+                              xmlns="http://www.w3.org/2000/svg" 
+                              viewBox="0 0 576 512" 
+                              width="24" 
+                              height="24" 
+                              fill="currentColor">
+                                <path d="M528.12 301.319L576 118H131.27l-9.67-33.641A24 24 0 0 0 100.69 48H24A24 24 0 0 0 0 72v16a24 24 0 0 0 24 24h63.637l70.795 246.213A63.987 63.987 0 1 0 168 400h288a64 64 0 1 0 16-98.681zM201.838 400a32 32 0 1 1 32 32 32 32 0 0 1-32-32zm240 0a32 32 0 1 1 32 32 32 32 0 0 1-32-32z"/>
+                            </svg>
+                            <span className="cart-label">Cart</span>
+                          </Link>
+                        </li>
                     </ul>
                 </nav>
             </header>

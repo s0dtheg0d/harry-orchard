@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { path } from '../utils/path';
 import '/styles/home.css';
 
 export default function Page() {
