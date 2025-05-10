@@ -1,3 +1,5 @@
-.next
+.next/
+.swc/
+.*.env
 
 node_modules

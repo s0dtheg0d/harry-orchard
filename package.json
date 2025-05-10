@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "export": "next export",
+    "deploy": "npm run build && npx gh-pages -d out --nojekyll --cname www.harryorchard.com",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

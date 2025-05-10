@@ -1,0 +1,292 @@
+.topBar {
+    position: relative;
+}
+
+#stockUnderLogo {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+#logoText {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    max-width: 30%;
+    z-index: 0;
+}
+
+.selectPictures {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    min-width: 300px;
+}
+
+.selectPictures > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.selectPictures img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #27360b;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.selectPictures p {
+    text-decoration: none;
+    color: #D4B63C;
+    padding: 0.5rem 1rem;
+    background-color: #859F71;
+    border-radius: 20px;
+}
+
+.selectPictures a {
+    text-decoration: none;
+    color: #D4B63C;
+    font-weight: bold;
+}
+
+.home {
+    text-align: center;
+}
+
+.home h2 {
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    color: #D4B63C;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    background-color: #667f57;
+    border-radius: 19px;
+    margin: 0rem auto 0 auto;
+}
+
+.splitContainer {
+    display: flex;
+    width: 100%;
+    color: black;
+    gap: 0.5rem;
+}
+
+.splitContainer img {
+    width: 375px;
+    height: 250px;
+    max-width: 500px;
+    max-height: 300px;
+    border: 5px solid #27360b;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+}
+
+.leftSide,
+.rightSide {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+.leftSide h4 {
+    text-decoration: underline;
+    font-size: 1.4rem;
+    margin-bottom: 0.3em;
+    margin-top: 0.2rem;
+}
+
+table thead th:nth-child(1) {
+    text-align: center;
+    text-decoration: underline;
+    padding-right: 4rem;
+}
+
+table thead th:nth-child(2) {
+    text-align: center;
+    text-decoration: underline;
+}
+
+table tbody td:nth-child(1) {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+table tbody td:nth-child(2) {
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+table {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 5rem 0.5rem;
+}
+
+table thead th,
+table tbody td {
+    white-space: nowrap;
+}
+
+.splitContainer a {
+    text-decoration: none;
+    color: #D4B63C;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: #D4B63C;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #859F71;
+    border-radius: 20px;
+}
+
+.splitContainer h3 {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #D4B63C;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    background-color: #667f57;
+    border-radius: 20px;
+    margin: 0rem auto 0 auto;
+    margin-bottom: 0rem;
+}
+
+.rightSide h3 {
+    margin-bottom: 2rem;
+}
+
+.rightSide h4 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.rightSide h5 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.rightSide p {
+    font-size: .9rem;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+p.small {
+    font-size: .8rem;
+}
+
+.splitContainer {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 980px) {
+    #stockUnderLogo {
+        width: 100vw;
+        height: 300px;
+    }
+
+    #logoText {
+        width: 50%;
+        max-width: 70%;
+        bottom: 0;
+        right: 0;
+    }
+
+    .selectPictures {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0rem;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .selectPictures > div {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .splitContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftSide,
+    .rightSide {
+        width: 100%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    table {
+        width: 100%;
+        border-spacing: 1rem 0.5rem;
+    }
+
+    .splitContainer img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .rightSide img {
+        margin-top: 0rem;
+    }
+    
+}
+
+@media only screen and (max-width: 474px) {
+    .selectPictures img {
+        width: 150px;
+        height: 150px;
+    }
+
+    #stockUnderLogo {
+        height: 200px;
+    }
+    
+}
+
+@media only screen and (max-width: 353px) {
+    .selectPictures img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .selectPictures p {
+        font-size: 0.8rem;
+    }
+
+    .home h2 {
+        font-size: 1.5rem;
+    }
+
+    .leftSide h4 {
+        font-size: 1.2rem;
+    }
+    .leftSide h5 {
+        font-size: 1rem;
+    }  
+
+    .splitContainer {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
