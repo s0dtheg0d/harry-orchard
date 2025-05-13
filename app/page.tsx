@@ -1,29 +1,30 @@
 import Link from 'next/link';
+import { prefix } from '/utils/prefix';
 import '/styles/home.css';
 
 export default function Page() {
     return (
         <div className="home">
             <div className="topBar">
-                <img src='harrysLogoText.png' id="logoText"/>
-                <img src='stockPhotos/AdobeStock_292290573.jpeg' id='stockUnderLogo'></img>
+                <img src={prefix('/harrysLogoText.png')} id="logoText"/>
+                <img src={prefix('/stockPhotos/AdobeStock_292290573.jpeg')} id='stockUnderLogo'></img>
             </div>
 
             <div className="selectPictures">
                 <div>
-                    <img src="stockPhotos/pexels-zen-chung-5529003.jpg"></img>
+                    <img src={prefix("/stockPhotos/pexels-zen-chung-5529003.jpg")}></img>
                     <p><Link href="/purchase">PICK YOUR OWN</Link></p>
                 </div>
                 <div>
-                    <img src="stockPhotos/pexels-gustavodenuncio-31558768.jpg"></img>
+                    <img src={prefix("/stockPhotos/pexels-gustavodenuncio-31558768.jpg")}></img>
                     <p><Link href="/calendar">SEASON EVENTS</Link></p>
                 </div>
                 <div>
-                    <img src="stockPhotos/pexels-zen-chung-5528990.jpg"></img>
+                    <img src={prefix("/stockPhotos/pexels-zen-chung-5528990.jpg")}></img>
                     <p><Link href="/purchase">GET TICKETS</Link></p> 
                 </div>  
                 <div>
-                    <img src="stockPhotos/pexels-planka-27080445.jpg"></img>
+                    <img src={prefix("/stockPhotos/pexels-planka-27080445.jpg")}></img>
                     <p><Link href="/calendar">CALENDAR</Link></p> 
                 </div>             
             </div>
@@ -61,7 +62,7 @@ export default function Page() {
                         </table>
                         <p><Link href="/calendar">VIEW FULL HARVEST CALENDAR &gt;</Link></p>
                     </div>
-                    <img src="stockPhotos/pexels-sinalmultimedia-28886689.jpg"></img>
+                    <img src={prefix("/stockPhotos/pexels-sinalmultimedia-28886689.jpg")}></img>
                     <div className="hours">
                         <h3>HOURS</h3>
                         <table>
@@ -106,7 +107,7 @@ export default function Page() {
                 </div>
 
                 <div className="rightSide">
-                    <img src="stockPhotos/pexels-planka-27080445.jpg"></img>
+                    <img src={prefix("/stockPhotos/pexels-planka-27080445.jpg")}></img>
                     <h3>EVENTS</h3>
 
                     <div>

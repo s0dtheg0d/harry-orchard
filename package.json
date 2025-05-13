@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next export",
-    "deploy": "npm run build && npx gh-pages -d out --nojekyll --cname www.harryorchard.com",
+    "deploy": "npm run build && npx gh-pages -d out --nojekyll --cname s0dtheg0d.github.io/harry-orchard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,7 +16,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "harry-orchard": "file:",
     "next": "^15.3.2",
+    "next-auth": "^4.24.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

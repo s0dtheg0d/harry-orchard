@@ -1,5 +1,6 @@
 "use client"
 import { useState } from 'react';
+import { prefix } from '/utils/prefix';
 import Link from 'next/link';
 import '/styles/globals.css';
 
@@ -13,7 +14,7 @@ export default function RootLayout({
       <html lang="en">
         <head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" type="image/png" href="harrysLogo.png" />
+          <link rel="icon" type="image/png" href={prefix("/harrysLogo.png")} />
           <title>Harry's Orchard</title>
           <meta name="description" content="Harry's Orchard" />
           <meta name="format-detection" content="telephone=no" />
@@ -22,7 +23,7 @@ export default function RootLayout({
             <header>
                 <nav>
                     <ul className="nav">
-                        <li><img src="harrysLogo.png" alt='Logo'></img></li>
+                        <li><img src={prefix("/harrysLogo.png")} alt='Logo'></img></li>
                         <li>
                           <div className="dropdown">
                             <button className="nav-toggle" aria-label="Toggle navigation" onClick={() => {
@@ -75,7 +76,7 @@ export default function RootLayout({
             </header>
             <main>{children}</main>
             <footer>
-                <img src="harrysLogoText.png" alt='Logo'></img>
+                <img src={prefix("/harrysLogoText.png")} alt='Logo'></img>
                 <div>
                   <p><a id="telephone" href="tel: +1-999-999-999">(999) 999-999</a></p>
                   <p>CONTACT<wbr></wbr>@HARRYSORCHARD.COM</p>
