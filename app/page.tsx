@@ -1,8 +1,13 @@
+"use client";
+
 import Link from 'next/link';
 import { prefix } from '/utils/prefix';
+import { useEffect, useState } from 'react';
 import '/styles/home.css';
 
-export default function Page() {
+export default function HomePage() {
+
+
     return (
         <div className="home">
             <div className="topBar">
@@ -17,7 +22,7 @@ export default function Page() {
                 </div>
                 <div>
                     <img src={prefix("/stockPhotos/pexels-gustavodenuncio-31558768.jpg")}></img>
-                    <p><Link href="/calendar">SEASON EVENTS</Link></p>
+                    <p><Link href="/events">SEASON EVENTS</Link></p>
                 </div>
                 <div>
                     <img src={prefix("/stockPhotos/pexels-zen-chung-5528990.jpg")}></img>

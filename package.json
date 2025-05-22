@@ -16,10 +16,18 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.0",
+    "date-fns": "^4.1.0",
     "harry-orchard": "file:",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.0",
     "next": "^15.3.2",
     "next-auth": "^4.24.11",
+    "next-cloudinary": "^6.16.0",
     "react": "^19.1.0",
+    "react-big-calendar": "^1.18.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {

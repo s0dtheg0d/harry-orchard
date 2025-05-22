@@ -5,11 +5,25 @@
     font-weight: 400;
 }
 
-body {
+html, body {
+    height: 100%;
     margin: 0;
-    margin-bottom: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
     background-color: #BDC49F;
-    color: #D4B63C;
+    color: #223008;
+    
 }
 
 nav {
@@ -29,6 +43,10 @@ nav {
     font-size: 1rem;
     font-weight: bold;
     white-space: nowrap;
+}
+
+nav li:hover {
+    transform: scale(.95);
 }
 
 nav ul {
@@ -80,18 +98,21 @@ nav img {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0rem;
     left: 0rem;
     z-index: 1;
-    width: 100%;
+    width: 100vw;
     background-color: #223008;
     padding: 0.5rem;
     display: flex;
     font-size: 1rem;
     font-weight: bold;
+    height: 4.1rem;
+    flex-shrink: 0;
     min-height: 3rem;
     align-items: flex-end;
+    color: #D4B63C;
 }
 
 footer img {
@@ -114,21 +135,39 @@ footer p {
     color:#D4B63C
 }
 
+.shopping-cart {
+    display: flex;
+    align-items: center;   /* Vertically centers the SVG and text */
+    justify-content: center;
+    padding: 0.5rem 1rem;  /* Adjust padding as needed */
+}
+.shopping-cart svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+nav a.topLogo {
+    display: block;
+    text-decoration: none;
+    color: inherit; /* or specify your preferred color */
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    transition: none;
+    /* Add any other resets you need */
+}
+
 @media only screen and (max-width: 980px) {
-    body {
-        overflow-x: hidden;
-    }
-
-
     .nav-toggle {
         display: block;
     }
 
     /* Hide all menu items except the logo and the button */
-    .nav > li:not(:first-child):not(:nth-child(2)) {
+    .nav > li:not(:first-child):not(:nth-child(2)):not(:nth-child(8)) {
         display: none;
     }
-
     .nav-open .dropdown-content {
         display: block;
     }
@@ -155,8 +194,10 @@ footer p {
         box-shadow: 0.25rem 0.25rem 0.5rem rgb(0, 0, 0, 0.5);
         width: auto;
         max-width: 60%;
+        min-width: 250px;
         border-radius: 8px;
         padding: 1.5rem;
+        top: 3rem;
         
     }
 
@@ -165,6 +206,9 @@ footer p {
         width: 100%;
     }
 
+    .shopping-cart {
+        margin-left: auto;
+    }
     
 
     nav ul.open li {
@@ -180,7 +224,7 @@ footer p {
 
 @media only screen and (max-width: 500px) {
     footer p {
-        font-size: 0.45rem;
+        font-size: 0.42rem;
     }
 }
 

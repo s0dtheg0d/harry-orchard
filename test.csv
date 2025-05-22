@@ -1,0 +1,52 @@
+id,event,start_date,end_date,all_day,description
+13,Valentine's Evening,2025-02-14T18:00,2025-02-14T21:00,False,A romantic evening celebration on Valentine's Day.
+20,St. Patrick's Day Parade,2025-03-17T10:00,2025-03-17T13:00,False,Join the lively parade and celebration on St. Patrick's Day.
+34,Book Fair,2025-03-20T10:00,2025-03-20T16:00,False,Discover new reads and meet authors at our one-day book fair.
+51,Cultural Parade,2025-03-30T09:00,2025-03-30T12:00,False,Experience a vibrant cultural parade celebrating diversity.
+31,Charity Run,2025-04-03T08:00,2025-04-03T11:00,False,Join the community for a charity run benefiting local causes.
+7,Easter Egg Hunt,2025-04-05T11:00,2025-04-05T14:00,False,Participate in our one-day Easter egg hunt.
+46,Gardening Workshop,2025-04-10T10:00,2025-04-10T14:00,False,Learn gardening tips at our hands-on workshop.
+24,Spring Picnic in the Park,2025-04-15T12:00,2025-04-15T16:00,False,Enjoy a relaxed spring picnic with games and local treats.
+9,Spring Fling,2025-04-20T10:00,2025-04-20T15:00,False,Join us for a one-day spring fling packed with fun activities.
+21,Earth Day Fun Run,2025-04-22T09:00,2025-04-22T12:00,False,Participate in a refreshing fun run to celebrate Earth Day.
+30,Jazz Concert,2025-05-07T18:00,2025-05-07T21:00,False,Relax with smooth jazz tunes at our evening concert.
+14,Mother's Day Brunch,2025-05-11T11:00,2025-05-11T14:00,False,Enjoy a special brunch dedicated to all mothers on a single day.
+44,Community Cleanup,2025-05-20T09:00,2025-05-20T12:00,False,Help beautify our community with a cleanup effort.
+22,Memorial Day Parade,2025-05-26T10:00,2025-05-26T12:00,False,Parade and festivities to honor Memorial Day.
+1,Flower Experience,2025-05-29T09:00,2025-06-01T18:00,True,Come frolic through our flower fields and enjoy the beauty of nature.
+2,Pick Your Own Strawberries,2025-05-29T09:00,2025-06-09T18:00,True,Pick your own strawberries and enjoy the sweet taste of summer.
+50,Kite Festival,2025-05-30T11:00,2025-05-30T15:00,False,Enjoy a colorful day outdoors at our kite festival.
+3,Sunflower Festival,2025-06-01T09:00,2025-06-15T18:00,True,Join us for our annual sunflower festival and enjoy the beauty of our sunflower fields.
+10,Summer Splash,2025-06-01T12:00,2025-06-01T17:00,False,Experience a day of water activities and summer fun.
+38,Local Farmer's Market,2025-06-15T08:00,2025-06-15T14:00,False,Shop fresh produce at our vibrant local farmer's market.
+15,Father's Day Outing,2025-06-15T11:00,2025-06-15T15:00,False,A fun outing to celebrate Father's Day.
+29,Outdoor Movie Night,2025-06-20T19:00,2025-06-20T22:00,False,Watch a blockbuster under the stars at our outdoor movie night.
+47,Photography Walk,2025-06-25T08:00,2025-06-25T12:00,False,Capture scenic views on our guided photography walk.
+23,Independence Day Fireworks,2025-07-04T20:00,2025-07-04T22:00,False,Watch dazzling fireworks on Independence Day.
+28,Food Truck Rally,2025-07-05T11:00,2025-07-05T16:00,False,Enjoy a variety of gourmet food truck offerings in one lively day.
+48,Creative Writing Workshop,2025-07-10T10:00,2025-07-10T13:00,False,Enhance your writing skills at our creative workshop.
+25,Summer Music Festival,2025-07-20T14:00,2025-07-20T22:00,False,Experience live music and summer vibes at our one-day festival.
+40,Ice Cream Social,2025-07-22T12:00,2025-07-22T16:00,False,Cool down with a community ice cream social.
+37,Vintage Car Show,2025-07-28T10:00,2025-07-28T15:00,False,Admire a collection of classic cars at our one-day show.
+42,Rooftop Party,2025-08-01T18:00,2025-08-01T22:00,False,Dance the night away at our trendy rooftop party.
+27,Art and Music Festival,2025-08-12T12:00,2025-08-12T20:00,False,Celebrate creativity at our one-day art and music festival.
+39,Brewfest,2025-08-20T14:00,2025-08-20T20:00,False,Sample craft beers at our local brewfest.
+4,Pumpkin Picking,2025-09-01T10:00,2025-09-01T16:00,False,Celebrate fall with a same-day pumpkin picking event.
+16,Labor Day BBQ,2025-09-01T12:00,2025-09-01T18:00,False,Celebrate Labor Day with a BBQ in one exciting day.
+43,Street Dance Battle,2025-09-10T17:00,2025-09-10T21:00,False,Watch epic dance battles at our street dance event.
+32,Eco Expo,2025-09-15T09:00,2025-09-17T17:00,True,Explore sustainable innovations at our three-day Eco Expo.
+8,Fall Festival,2025-09-23T09:00,2025-10-11T18:00,True,"Enjoy our fall festival with local food, crafts, and music in one day."
+33,Yoga Retreat,2025-10-05T08:00,2025-10-07T18:00,True,Refresh your mind and body at our weekend yoga retreat.
+26,Autumn Art Fair,2025-10-05T10:00,2025-10-05T18:00,False,Discover local art and crafts at our fall art fair.
+11,Harvest Festival,2025-10-10T10:00,2025-10-10T16:00,False,"Celebrate the harvest with a fun, one-day festival featuring local produce."
+41,Chocolate Festival,2025-10-20T11:00,2025-10-20T17:00,False,Indulge in sweet treats at our chocolate festival.
+49,Wine Tasting,2025-10-30T16:00,2025-10-30T20:00,False,Sample a selection of wines at our tasting event.
+17,Halloween Bash,2025-10-31T18:00,2025-10-31T23:00,False,Join our thrilling Halloween party and costume contest.
+5,Christmas Tree Farm,2025-11-01T09:00,2025-12-24T18:00,True,Come pick your own Christmas tree and enjoy the holiday season.
+35,Innovation Summit,2025-11-10T09:00,2025-11-12T17:00,True,Join industry leaders for a multi-day summit on innovation.
+45,Charity Auction,2025-11-15T13:00,2025-11-15T18:00,False,Bid on unique items at our charity auction event.
+18,Thanksgiving Dinner,2025-11-27T15:00,2025-11-27T20:00,False,Gather for a festive Thanksgiving dinner with family and friends.
+6,Winter Wonderland,2025-12-01T09:00,2025-12-31T18:00,True,Join us for our winter wonderland event and enjoy the beauty of the season.
+36,Tech Expo,2025-12-05T10:00,2025-12-07T18:00,True,Experience the latest in technology at our three-day expo.
+12,New Year's Celebration,2025-12-31T18:00,2025-12-31T23:59,False,Ring in the New Year with a spectacular one-night celebration.
+19,New Year's Eve Party,2025-12-31T19:00,2025-12-31T23:00,False,Enjoy a fun-filled New Year's Eve party with live music and fireworks.

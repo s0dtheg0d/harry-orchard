@@ -1,0 +1,61 @@
+.calendar {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add a border around the calendar overall */
+.rbc-calendar {
+    border: 2px solid; /* dark border */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Header styling with a subtle background and dark bottom border */
+.rbc-header {
+    background-color: #f1f5e1;
+    border-bottom: 2px solid;
+}
+
+/* Days of the week and date cells with darker vertical and horizontal lines */
+.rbc-date-cell, .rbc-time-cell, .rbc-month-row {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+/* For cells representing days which are not part of the current month */
+.rbc-day-bg.rbc-off-range-bg {
+    background-color: #414912; /* adjust to your preferred off month color */
+}
+
+/* Customize events with a different background and rounded corners */
+.rbc-event {
+    background-color: #667f57; /* change this color for events */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.2rem 0.4rem;
+}
+
+/* Optional: Adjust the event title styling */
+.rbc-event > div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rbc-today {
+    background-color: #b8c264; /* light gray for today */
+}
+
+.rbc-calendar {
+    width: 60%;
+}
+
+@media only screen and (max-width: 371px) {
+    .rbc-calendar {
+        width: 80%;
+    }
+}

@@ -1,5 +1,6 @@
 .next/
 .swc/
 .*.env
+.env
 
 node_modules

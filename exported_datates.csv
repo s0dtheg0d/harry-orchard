@@ -1,0 +1,52 @@
+id,event,start_date,end_date,all_day,description,start_datetime
+1,Flower Experience,2025-05-29 09:00,2025-06-01 18:00,True,Come frolic through our flower fields and enjoy the beauty of nature.,2025-05-29 09:00:00
+2,Pick Your Own Strawberries,2025-05-29 09:00,2025-06-09 18:00,True,Pick your own strawberries and enjoy the sweet taste of summer.,2025-05-29 09:00:00
+3,Sunflower Festival,2025-06-01 09:00,2025-06-15 18:00,True,Join us for our annual sunflower festival and enjoy the beauty of our sunflower fields.,2025-06-01 09:00:00
+4,Pumpkin Picking,2025-09-01 10:00,2025-09-01 16:00,False,Celebrate fall with a same-day pumpkin picking event.,2025-09-01 10:00:00
+5,Christmas Tree Farm,2025-11-01 09:00,2025-12-24 18:00,True,Come pick your own Christmas tree and enjoy the holiday season.,2025-11-01 09:00:00
+6,Winter Wonderland,2025-12-01 09:00,2025-12-31 18:00,True,Join us for our winter wonderland event and enjoy the beauty of the season.,2025-12-01 09:00:00
+7,Easter Egg Hunt,2025-04-05 11:00,2025-04-05 14:00,False,Participate in our one-day Easter egg hunt.,2025-04-05 11:00:00
+8,Fall Festival,2025-09-23 09:00,2025-10-11 18:00,True,"Enjoy our fall festival with local food, crafts, and music in one day.",2025-09-23 09:00:00
+9,Spring Fling,2025-04-20 10:00,2025-04-20 15:00,False,Join us for a one-day spring fling packed with fun activities.,2025-04-20 10:00:00
+10,Summer Splash,2025-06-01 12:00,2025-06-01 17:00,False,Experience a day of water activities and summer fun.,2025-06-01 12:00:00
+11,Harvest Festival,2025-10-10 10:00,2025-10-10 16:00,False,"Celebrate the harvest with a fun, one-day festival featuring local produce.",2025-10-10 10:00:00
+12,New Year's Celebration,2025-12-31 18:00,2025-12-31 23:59,False,Ring in the New Year with a spectacular one-night celebration.,2025-12-31 18:00:00
+13,Valentine's Evening,2025-02-14 18:00,2025-02-14 21:00,False,A romantic evening celebration on Valentine's Day.,2025-02-14 18:00:00
+14,Mother's Day Brunch,2025-05-11 11:00,2025-05-11 14:00,False,Enjoy a special brunch dedicated to all mothers on a single day.,2025-05-11 11:00:00
+15,Father's Day Outing,2025-06-15 11:00,2025-06-15 15:00,False,A fun outing to celebrate Father's Day.,2025-06-15 11:00:00
+16,Labor Day BBQ,2025-09-01 12:00,2025-09-01 18:00,False,Celebrate Labor Day with a BBQ in one exciting day.,2025-09-01 12:00:00
+17,Halloween Bash,2025-10-31 18:00,2025-10-31 23:00,False,Join our thrilling Halloween party and costume contest.,2025-10-31 18:00:00
+18,Thanksgiving Dinner,2025-11-27 15:00,2025-11-27 20:00,False,Gather for a festive Thanksgiving dinner with family and friends.,2025-11-27 15:00:00
+19,New Year's Eve Party,2025-12-31 19:00,2025-12-31 23:00,False,Enjoy a fun-filled New Year's Eve party with live music and fireworks.,2025-12-31 19:00:00
+20,St. Patrick's Day Parade,2025-03-17 10:00,2025-03-17 13:00,False,Join the lively parade and celebration on St. Patrick's Day.,2025-03-17 10:00:00
+21,Earth Day Fun Run,2025-04-22 09:00,2025-04-22 12:00,False,Participate in a refreshing fun run to celebrate Earth Day.,2025-04-22 09:00:00
+22,Memorial Day Parade,2025-05-26 10:00,2025-05-26 12:00,False,Parade and festivities to honor Memorial Day.,2025-05-26 10:00:00
+23,Independence Day Fireworks,2025-07-04 20:00,2025-07-04 22:00,False,Watch dazzling fireworks on Independence Day.,2025-07-04 20:00:00
+24,Spring Picnic in the Park,2025-04-15 12:00,2025-04-15 16:00,False,Enjoy a relaxed spring picnic with games and local treats.,2025-04-15 12:00:00
+25,Summer Music Festival,2025-07-20 14:00,2025-07-20 22:00,False,Experience live music and summer vibes at our one-day festival.,2025-07-20 14:00:00
+26,Autumn Art Fair,2025-10-05 10:00,2025-10-05 18:00,False,Discover local art and crafts at our fall art fair.,2025-10-05 10:00:00
+27,Art and Music Festival,2025-08-12 12:00,2025-08-12 20:00,False,Celebrate creativity at our one-day art and music festival.,2025-08-12 12:00:00
+28,Food Truck Rally,2025-07-05 11:00,2025-07-05 16:00,False,Enjoy a variety of gourmet food truck offerings in one lively day.,2025-07-05 11:00:00
+29,Outdoor Movie Night,2025-06-20 19:00,2025-06-20 22:00,False,Watch a blockbuster under the stars at our outdoor movie night.,2025-06-20 19:00:00
+30,Jazz Concert,2025-05-07 18:00,2025-05-07 21:00,False,Relax with smooth jazz tunes at our evening concert.,2025-05-07 18:00:00
+31,Charity Run,2025-04-03 08:00,2025-04-03 11:00,False,Join the community for a charity run benefiting local causes.,2025-04-03 08:00:00
+32,Eco Expo,2025-09-15 09:00,2025-09-17 17:00,True,Explore sustainable innovations at our three-day Eco Expo.,2025-09-15 09:00:00
+33,Yoga Retreat,2025-10-05 08:00,2025-10-07 18:00,True,Refresh your mind and body at our weekend yoga retreat.,2025-10-05 08:00:00
+34,Book Fair,2025-03-20 10:00,2025-03-20 16:00,False,Discover new reads and meet authors at our one-day book fair.,2025-03-20 10:00:00
+35,Innovation Summit,2025-11-10 09:00,2025-11-12 17:00,True,Join industry leaders for a multi-day summit on innovation.,2025-11-10 09:00:00
+36,Tech Expo,2025-12-05 10:00,2025-12-07 18:00,True,Experience the latest in technology at our three-day expo.,2025-12-05 10:00:00
+37,Vintage Car Show,2025-07-28 10:00,2025-07-28 15:00,False,Admire a collection of classic cars at our one-day show.,2025-07-28 10:00:00
+38,Local Farmer's Market,2025-06-15 08:00,2025-06-15 14:00,False,Shop fresh produce at our vibrant local farmer's market.,2025-06-15 08:00:00
+39,Brewfest,2025-08-20 14:00,2025-08-20 20:00,False,Sample craft beers at our local brewfest.,2025-08-20 14:00:00
+40,Ice Cream Social,2025-07-22 12:00,2025-07-22 16:00,False,Cool down with a community ice cream social.,2025-07-22 12:00:00
+41,Chocolate Festival,2025-10-20 11:00,2025-10-20 17:00,False,Indulge in sweet treats at our chocolate festival.,2025-10-20 11:00:00
+42,Rooftop Party,2025-08-01 18:00,2025-08-01 22:00,False,Dance the night away at our trendy rooftop party.,2025-08-01 18:00:00
+43,Street Dance Battle,2025-09-10 17:00,2025-09-10 21:00,False,Watch epic dance battles at our street dance event.,2025-09-10 17:00:00
+44,Community Cleanup,2025-05-20 09:00,2025-05-20 12:00,False,Help beautify our community with a cleanup effort.,2025-05-20 09:00:00
+45,Charity Auction,2025-11-15 13:00,2025-11-15 18:00,False,Bid on unique items at our charity auction event.,2025-11-15 13:00:00
+46,Gardening Workshop,2025-04-10 10:00,2025-04-10 14:00,False,Learn gardening tips at our hands-on workshop.,2025-04-10 10:00:00
+47,Photography Walk,2025-06-25 08:00,2025-06-25 12:00,False,Capture scenic views on our guided photography walk.,2025-06-25 08:00:00
+48,Creative Writing Workshop,2025-07-10 10:00,2025-07-10 13:00,False,Enhance your writing skills at our creative workshop.,2025-07-10 10:00:00
+49,Wine Tasting,2025-10-30 16:00,2025-10-30 20:00,False,Sample a selection of wines at our tasting event.,2025-10-30 16:00:00
+50,Kite Festival,2025-05-30 11:00,2025-05-30 15:00,False,Enjoy a colorful day outdoors at our kite festival.,2025-05-30 11:00:00
+51,Cultural Parade,2025-03-30 09:00,2025-03-30 12:00,False,Experience a vibrant cultural parade celebrating diversity.,2025-03-30 09:00:00
